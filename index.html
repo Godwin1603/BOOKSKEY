@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BooksKey</title>
+    <link rel="stylesheet" href="bookskey.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body><div id="refresh">
+
+    
+    <div class="navbar">
+        <h2>BooksKey</h2>
+    </div>
+    
+    <div class="container">
+        <div class="bookcontainer">
+        <h3>Faith Of God</h3>
+        <h5>-rebert</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit officiis minima ut atque est accusantium iure voluptatibus. Quod, consequuntur esse!</p>
+        <button onclick="dele(event)" >Delete</button>
+    </div>
+    
+    </div>
+
+    
+    <div class="popupoverlay"></div>
+
+    <div class="popupbox">
+        <h3>Add Book</h3>
+        <form>
+            <input type="text" placeholder="BookTitle" id="booktitle"><br>
+            <input type="text" placeholder="BookAuthor" id="author"><br>
+            <textarea placeholder="ShortDescrription" id="description"></textarea><br>
+            <button class="addb" id="addbook">Add</button>
+            <button id="canc" >Cancel</button>
+        </form>
+
+    </div></div>
+    
+    <button class="addbtn" id="addbt">+</button>
+
+    <script src="bookkey.js"></script>
+</body>
+</html>
